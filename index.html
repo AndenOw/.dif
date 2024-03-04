@@ -1,3 +1,5 @@
+<!-- index.html -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,28 +12,19 @@
 </head>
 <body>
     <div>
-        <h1>Find Difference In Text</h1>
+        <div class="title-bar">
+            <h1 class="title">.dif</h1>
+        </div>
 
-        <div>
-			<div>
-				<textarea></textarea>
-            </div>
-		</div>
-
-		<br>
-
-		<div>
-			<div>
-				<textarea></textarea>
-            </div>
+        <div class="container">
+			<textarea id="textarea1" placeholder="First version of text"></textarea>
+            <textarea id="textarea2" placeholder="Second version of text"></textarea>
 		</div>
 		
         <br>
 
-        <div>
-            <div>
-                <button onclick="runDotDif()">.dif</button>
-            </div>
+        <div style="text-align: center;">
+            <button onclick="runDotDif()">.dif</button>
         </div>
     </div>
 
