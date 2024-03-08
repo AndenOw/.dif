@@ -1,4 +1,8 @@
 [ ] Link the height resizes of the text areas to one another (maybe resize the container and have the text areas fit to 100% the height of the container)
 [ ] Make a width resize bar in the text area container (a bar in between the text areas that slides left and right, giving the text areas different amounts of the screen)
 [ ] Add difference finding function in scripts (split text by '\n' into arrays and parse through the arrays)
+    [x] Make all necessary arrays and variables
+    [x] Find the difference when the line amounts are identical
+    [ ] Find the difference when the first value has more lines than the second
+    [ ] Find the difference when the second value has more lines than the first
 [ ] Add a visualization of the difference with styled/colored text and line markers in divs
